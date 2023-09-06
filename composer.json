@@ -1,0 +1,21 @@
+{
+    "name": "lun324/capmonster-cloud-client",
+    "description": "capmonster-cloud-client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lun324",
+            "email": "442962403@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Lun324\\CapmonsterCloudClient\\": "src/"
+        }
+    }
+}
