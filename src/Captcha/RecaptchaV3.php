@@ -1,13 +1,13 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
-use Lun324\CapmonsterCloudClient\CaptchaRequest;
+use Nyaxk\CapmonsterCloudClient\CaptchaRequest;
 
 class RecaptchaV3 extends CaptchaRequest
 {
 
-    public function __construct($websiteURL, $websiteKey,$minScore = null, $pageAction = null)
+    public function __construct($websiteURL, $websiteKey, $minScore = null, $pageAction = null)
     {
         $options = [
             "websiteURL" => $websiteURL,

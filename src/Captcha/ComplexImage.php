@@ -1,8 +1,8 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
-use Lun324\CapmonsterCloudClient\CaptchaRequest;
+use Nyaxk\CapmonsterCloudClient\CaptchaRequest;
 
 class ComplexImage extends CaptchaRequest
 {
@@ -13,8 +13,7 @@ class ComplexImage extends CaptchaRequest
         $imagesBase64 = [],
         $userAgent = null,
         $websiteURL = null
-    )
-    {
+    ) {
         $options = $this->clearInput([
             "class" => $class,
             "imageUrls" => $imageUrls,

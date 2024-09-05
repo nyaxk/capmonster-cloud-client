@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 class Timeouts
 {
@@ -16,7 +16,7 @@ class Timeouts
         "timeout" => 180000
     ];
 
-    public static $recaptchav3timeouts = [
+    public static $recaptchaV3Timeouts = [
         "firstRequestDelay" => 1000,
         "requestInterval" => 3000,
         "timeout" => 100080
@@ -87,5 +87,4 @@ class Timeouts
                 return self::$complexImageTimeouts;
         }
     }
-
 }

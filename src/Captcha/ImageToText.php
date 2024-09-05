@@ -1,8 +1,8 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
-use Lun324\CapmonsterCloudClient\CaptchaRequest;
+use Nyaxk\CapmonsterCloudClient\CaptchaRequest;
 
 class ImageToText extends CaptchaRequest
 {
@@ -12,8 +12,8 @@ class ImageToText extends CaptchaRequest
         $recognizingThreshold = null,
         $case = null,
         $numeric = null,
-        $math = null)
-    {
+        $math = null
+    ) {
         $options = [
             "body" => $body,
             "CapMonsterModule" => $capMonsterModule,
@@ -24,5 +24,4 @@ class ImageToText extends CaptchaRequest
         ];
         CaptchaRequest::__construct("ImageToTextTask", $options);
     }
-
 }

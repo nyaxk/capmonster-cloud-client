@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
 class ComplexImageFuncaptcha extends ComplexImage
 {
@@ -12,8 +12,7 @@ class ComplexImageFuncaptcha extends ComplexImage
         array $imagesBase64 = [],
         string $userAgent = null,
         string $websiteURL = null
-    )
-    {
+    ) {
         parent::__construct($this->class, $metadata, $imageUrls, $imagesBase64, $userAgent, $websiteURL);
     }
 }

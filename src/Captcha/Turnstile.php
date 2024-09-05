@@ -1,8 +1,8 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
-use Lun324\CapmonsterCloudClient\CaptchaRequest;
+use Nyaxk\CapmonsterCloudClient\CaptchaRequest;
 
 class Turnstile extends CaptchaRequest
 {
@@ -21,8 +21,7 @@ class Turnstile extends CaptchaRequest
         $pageAction = null,
         $data = null,
         $pageData = null
-    )
-    {
+    ) {
         $options = $this->clearInput([
             "websiteURL" => $websiteURL,
             "websiteKey" => $websiteKey,
@@ -41,5 +40,4 @@ class Turnstile extends CaptchaRequest
 
         CaptchaRequest::__construct($this->detectProxy($options, "TurnstileTask", "TurnstileTaskProxyless"), $options);
     }
-
 }

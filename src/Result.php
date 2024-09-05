@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 class Result
 {
@@ -23,5 +23,4 @@ class Result
     {
         $this->message = $newMessage;
     }
-
 }

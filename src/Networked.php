@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 use Exception;
 
@@ -46,5 +46,4 @@ class Networked
         $firstDigit = substr((string)$code, 0, 1);
         return $firstDigit == '4' || $firstDigit == '5';
     }
-
 }

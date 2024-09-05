@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 class Validator
 {
@@ -51,5 +51,4 @@ class Validator
 
         return new Result(true, "valid");
     }
-
 }

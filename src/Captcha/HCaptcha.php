@@ -1,8 +1,8 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient\Captcha;
+namespace Nyaxk\CapmonsterCloudClient\Captcha;
 
-use Lun324\CapmonsterCloudClient\CaptchaRequest;
+use Nyaxk\CapmonsterCloudClient\CaptchaRequest;
 
 class HCaptcha extends CaptchaRequest
 {
@@ -19,8 +19,7 @@ class HCaptcha extends CaptchaRequest
         $proxyPort = null,
         $proxyLogin = null,
         $proxyPassword = null
-    )
-    {
+    ) {
         $options = $this->clearInput([
             "websiteURL" => $websiteURL,
             "websiteKey" => $websiteKey,
@@ -37,5 +36,4 @@ class HCaptcha extends CaptchaRequest
 
         CaptchaRequest::__construct($this->detectProxy($options, "HCaptchaTask", "HCaptchaTaskProxyless"), $options);
     }
-
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 class Client extends Networked
 {
@@ -103,5 +103,4 @@ class Client extends Networked
 
         return new Result(true, $jsonResponse['balance']);
     }
-
 }

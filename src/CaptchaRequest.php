@@ -1,6 +1,6 @@
 <?php
 
-namespace Lun324\CapmonsterCloudClient;
+namespace Nyaxk\CapmonsterCloudClient;
 
 use Exception;
 
@@ -162,5 +162,4 @@ class CaptchaRequest extends Networked
             $this->solution = $jsonResponse['solution'];
         }
     }
-
 }
